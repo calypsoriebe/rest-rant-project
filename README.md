@@ -1,7 +1,7 @@
 # Rest-Rant Project
 This will be an app for posting reviews about food places
 ***
-## Table to refer to 
+## Table to refer to for paths
 |Method|Path|Purpose|
 |------|----|-------|
 |GET|/|Home Page|
@@ -15,3 +15,10 @@ This will be an app for posting reviews about food places
 |POST|/places/:id/rant|Create a rant|
 |DELETE|/places/:id/rant/:rantid|Delete a rant|
 |GET|*|404 page|
+***
+## Table to refer to for places
+|Name|City|State|Cuisines|Picture|
+|----|----|----|--------|-------|
+|JoJos|Charlotte|NC|Chinese Food|jojos photo|
+|Dominoes|Pineville|NC|Pizza|Dominoes logo|
+|Ichiban|Brooklyn|NY|Ramen|Booths photo|
