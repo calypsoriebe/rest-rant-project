@@ -15,5 +15,8 @@ app.get("/", (req, res) => {
 app.get("*", (req, res) => {
   res.render("error404");
 });
+app.get("/new", (req, res) => {
+  res.render("newForm");
+});
 //listenings
 app.listen(process.env.PORT);
